@@ -1,0 +1,457 @@
+
+/* VERY LARGE MONITORS */
+@media only screen and (min-width: 1280px){
+
+    .overAll{
+        width: 100%;
+        overflow: hidden;
+    }
+
+     /* HEADER */
+     .overAll header{
+        height: 500px;
+        width: 100%;
+        background-image: url('images/bg-pattern-intro-desktop.svg');
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center;
+        background-size: 180%;
+        /* border: 1px solid #111; */
+        border-radius: 0 0 0 100px;
+        padding: 40px 20px;
+        background-color: hsl(356, 100%, 66%);
+    }
+
+     /* BLOGR logoName */
+     .overAll h1{
+        color: hsl(0, 0%, 100%);
+        display: inline-block;
+        position: fixed;
+        background: hsl(356, 100%, 66%);
+        /* background: inherit; */
+        top:0;
+        left: 0;
+        width: 100%;
+        padding: 50px 30px 10px 110px ;
+        z-index: 2;
+        font-size: 2.3em;
+    }
+
+     /* MOBILE DROPDOWN NAVBAR */
+     nav#Mobile-dropMenu{
+        display: none;
+    }
+
+     /* DESKTOP NAVIGATION MENU */
+     nav#desktop-menu{
+        width: 100%;
+        min-width: 769px;
+        /* border: 1px solid #eee; */
+        position: fixed;
+        top: 9%;
+        left: 0;
+        z-index: 2;
+        /* padding-left: 25%; */
+        padding-left: 29vw;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #desktop-menu .links{
+        display: inline-block;
+        /* border: 1px solid cyan; */
+        position: relative;
+        top: 0;
+        margin-right: 12px;
+        
+    }
+
+    .links .linkBtn a{
+        text-align: left;
+        color:hsl(0, 0%, 100%);
+        padding: 0 10px;
+        font-weight: 550;
+    }
+
+    #desktop-menu .links  a{
+        text-decoration: none;
+        font-size: 0.9em; 
+        text-align: left;
+        /* border: 1px dashed cyan;       */
+    }
+
+    .lowerLinks{
+        display: none;
+        position: absolute;
+        top: 22px;
+        left: -23%;
+        /* border: 1px solid green; */
+        width: 120px;
+        border-radius: 10px;
+        padding: 7px 0;
+        background-color:hsl(0, 20%, 88%);  
+    }
+
+    .lowerLinks a{
+        display: block;
+        padding: 7px 30px 7px 25px; 
+        background-color:hsl(0, 20%, 88%);
+        color: #111;
+        border-radius: none;
+    }
+
+    .lowerLinks a:hover{
+        font-weight: bold;
+    }
+
+    .links:hover .lowerLinks{
+        display: block;
+    }
+
+    .ctaLink{
+        display: inline-block;
+        /* border: 2px dotted grey; */
+        margin-right: 7px;
+    }
+
+    .ctAction{
+        left: 20vw;
+        /* border: 1px solid #aaa; */
+    }
+
+    .ctaLink a{
+        color:hsl(0, 0%, 100%);
+        padding: 0 10px;
+        font-weight: 550;
+
+    }
+
+    #signup{
+        padding: 10px 17px;
+        border: none;
+        border-radius: 15px;
+        background:hsl(0, 0%, 100%);
+        color: hsl(356, 100%, 66%);
+        font-weight: 550;
+
+    }
+
+     /* NAVIGATION MENU ENDS */
+
+    /* HEADER CONTENTS */
+
+    .h2 {
+        margin: 170px 25px 20px ;
+        /* border: 1px solid #111; */
+        padding: none;
+    }
+
+    .h2 h2{
+        color: hsl(0, 0%, 100%);
+        text-align: center;
+        padding: 4px 0;
+        font-size: 2.5em;
+        font-weight: 550;
+        letter-spacing:normal;
+        word-spacing: 7px;  
+    }
+
+    .para #pHeader{
+        color: hsl(0, 0%, 100%);
+        text-align: center;
+        padding: 1px 0;
+        font-size: 16px;
+        letter-spacing: 0.01em;    
+    }
+
+    .cta{
+        width: 100%;
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid white; */
+        height: 100px;
+    }
+
+    .cta .ctaBTN{
+        /* border: 1px solid hsl(0, 0%, 100%); */
+        padding: 15px 20px;
+        border-radius: 22px;
+        margin-right: 14px;
+        font-weight: 570;
+    }
+
+    .whiteBG{
+        color: hsl(356, 89%, 52%);
+        background: hsl(0, 0%, 100%);
+        border: none;
+        
+    }
+
+    .Transp{
+        background: transparent;
+        color: hsl(0, 0%, 100%);
+        letter-spacing: 0.5px;
+        border: 1px solid hsl(0, 0%, 100%);
+    }
+
+    .whiteBG:hover{
+        background: hsla(355, 100%, 74%, 0.658);
+        border: none;
+        color: hsl(0, 0%, 100%);
+        /* font-weight: bold; */
+    }
+
+    .Transp:hover{
+        background:hsl(0, 0%, 100%);
+        color: hsl(356, 100%, 66%);
+        border: none;
+        /* font-weight: bold; */
+    }
+
+    /* --------MAIN SECTION------------- */
+.future{
+    /* border: 1px solid #111; */
+    margin-top: 100px;
+}
+
+.h3 h3{
+    color: hsl(208, 49%, 24%);
+    font-size: 28px;
+    text-align: center;
+    font-weight: 550;
+    word-spacing: 1px;
+    padding: 0 30px;
+}
+
+#half{
+    width: 50%;
+    /* border: 1px solid yellow; */
+    display: inline-block;
+}
+
+.mobileIMG{
+    display: none;
+}
+
+.capture{
+    width: 50%;
+    min-width: 375px;
+    /* border: 1px solid cyan; */
+    height: auto;
+    float: right;
+}
+
+.capture .desktopIMG{
+    width: 120%;
+    height: 120%;
+    margin-top: -85px;
+    margin-left: 15%;
+} 
+
+.flex{
+    width: 80%;
+    height: auto;
+    margin: 30px auto 30px;
+    padding: 0 15px;
+    /* border: 1px dotted blue; */
+}
+
+.extensible h3{
+    font-size: 1.5em;
+    word-spacing: 2px;
+}
+
+.Bodytext{
+    color: hsl(240, 3%, 19%);
+    font-size: 16px;
+    line-height: 145%;
+    text-align: start;
+    padding: 7px 25px;
+}
+
+.StateOFtheArt {
+    height: 400px;
+    width: 100%;
+    background: hsl(237, 17%, 21%) url('images/bg-pattern-circles.svg') no-repeat top center;
+    background-size: auto 100%;
+    margin-top: 70px;
+    border-radius: 0 120px;
+    overflow: visible;
+    /* border: 1px solid blue; */
+}
+
+.phones{
+    /* border: 1px solid red; */
+    width: 50%;
+    min-width: 376px;
+    float: left;
+    height: auto;
+    margin-top: -70px;
+    padding-left: 6%;
+    display: flex;
+    align-items: center;
+}
+
+.phones img{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid green; */
+    
+}
+
+.StateArtBox{
+    /* border: 1px dashed rgb(255, 238, 0); */
+    width: 50%;
+    height: auto;
+    float: right;
+    margin-top: 60px;
+    padding: 0 40px;
+
+}
+
+.infra h3{
+    color:hsl(0, 0%, 100%);
+    word-spacing: -3px;
+    padding: 15px 30px;
+    font-size: 28px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    /* border: 1px dotted blue; */
+    text-align: center;
+}
+
+.StateArtBox p{
+    color: hsl(0, 0%, 100%);
+    text-align: start;
+    padding: 1px 30px;
+    font-size: 16px;
+    line-height: 145%;
+    /* border: 1px inset purple; */
+    width: 100%;
+    margin: 5px auto;
+}
+
+.LaptopFree{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid cyan; */
+    margin-top: 30px;
+}
+
+.lappy{
+    height: auto;
+    width: 50%;
+    min-width: 375px;
+    /* border: 1px groove orange; */
+    float: left;
+  
+}
+
+.lappy img{
+    width: 130%;
+    height: 130%;
+    left: -33.6%;
+    position: relative;
+    /* border: 1px solid crimson; */
+}
+
+.floatR{
+    /* border: 1px solid #111; */
+    float: right;
+    width: 50%;
+    height: auto;
+    padding: 70px 0;
+    min-width: 375px;
+    margin-top: 70px;
+}
+
+.free{
+    width: 80%;
+    height: auto;
+    margin: 10px auto 30px;
+    padding: 0 15px;
+    /* border: 1px dotted blue; */
+}
+
+.free h3{
+    padding-bottom: 15px;
+}
+
+/* FOOTER STYLES */
+
+footer{
+    height: 300px;
+    width: 100%;
+    border-radius: 0 100px 0 0;
+    background:  hsl(240, 10%, 16%);
+    color:  hsl(240, 2%, 79%);
+    margin-top: 55px;
+}
+
+footer h2{
+    color:   hsl(0, 0%, 100%);
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+    /* border: 1px solid cyan; */
+    width: 30%;
+    min-width: 200px;
+    float: left;
+    height: 100%;
+}
+
+footer nav#footLinks {
+    width: 60%;
+    min-width: 421px;
+    /* border: 1px solid red; */
+    margin-right: 10%;
+    text-align: center;
+    height: 100%;
+    padding-top: 50px;
+    /* padding-top: 50px; */
+    float: right;
+    
+}  
+
+.footGrpLinks{
+    /* border: 1px dashed green; */
+    /* margin-bottom: 15px; */
+    width: 33%;
+    height: 100%;
+    float: left;
+}
+
+.mainLink{
+    padding: 0 0 22px 0;
+    
+}
+
+footer .mainLink a{
+    text-decoration: none;
+    color:  hsl(0, 0%, 100%);
+    
+}
+
+footer .subLinks a{
+    text-decoration: none;
+    color:   hsl(240, 2%, 79%);
+    display: block;
+    font-size: 14px;
+    line-height: 190%;
+}
+
+footer a:hover{
+    color:hsl(353, 100%, 62%);
+}
+
+
+
+
+
+
+
+
+}
